@@ -1,0 +1,95 @@
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url('img.jpeg');
+  background-color: rgba(0,0,0,0.4);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+
+
+}
+
+
+.main-heading {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+
+}
+
+/* .let {
+  align-self: center;
+  justify-content: center;
+
+
+} */
+
+
+
+.main-heading h1 {
+  margin-top: 0;
+  /* text-align: center; */
+
+  color: rgba(206,179,163, 0.4);
+  /*text-shadow: 4px 4px 2px rgba(124,97,81, 0.8);*/
+  font-size: 5em;
+  margin-bottom: 10px;
+}
+
+.darker {
+  background-color: rgba(0,0,0,0.4);
+  height: 100vh;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+  /*color: #CEB3A3; */
+  color: rgba(206,179,163, 0.6);
+  margin-right: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover  {
+  color: orange;
+  border-bottom: 1px solid #CEB3A3;
+}
+
+
+
+.title {
+  color: #CEB3A3;
+  font-size: 1.5em;
+
+}
+
+
+
+.main-pic {
+  margin: 20px auto;
+}
+
+.me {
+  border-radius: 50%;
+  width: 200px;
+
+}
+
+.mybtn {
+  padding: 20px;
+  background-color: rgba(206,179,163, 0.4);
+  border-radius: 10px;
+  color: rgb(206,179,163);
+}
